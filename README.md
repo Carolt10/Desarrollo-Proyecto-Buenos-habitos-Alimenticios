@@ -2,8 +2,8 @@
 
 *Plataforma educativa interactiva para promover hábitos alimenticios saludables en niños*
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/davidrubio581-7803s-projects/v0-figma-prototype-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/d3aohEdkXQj)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)]()
+[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)]()
 
 ## 📚 Índice de Documentación
 
@@ -41,7 +41,6 @@ Guía paso a paso para usuarios sobre cómo compartir sus historias:
 
 - ✅ Enseñar a padres y educadores sobre nutrición infantil
 - ✅ Proporcionar recetas saludables y rápidas
-- ✅ Gamificar el aprendizaje con juegos educativos
 - ✅ Conectar una comunidad de padres interesados en hábitos saludables
 - ✅ Compartir experiencias y testimonios de cambios reales
 
@@ -51,20 +50,12 @@ Guía paso a paso para usuarios sobre cómo compartir sus historias:
 |--------|------------|
 | **🏠 Home** | Página de inicio con estadísticas, beneficios y historias de éxito |
 | **🍽️ Recetas** | Búsqueda y filtrado de recetas saludables categorizadas |
-| **👥 Comunidad** | Formulario para compartir recetas y experiencias de usuarios |
 | **📚 Guías Educativas** | Información sobre etiquetas nutricionales y recomendaciones |
-| **🎮 Zona de Juegos** | Juegos interactivos educativos para niños |
 | **⚠️ Alertas** | Videos educativos y artículos sobre salud infantil |
 
 ## 🚀 Links Importantes
 
-- **Aplicación en vivo:** [Acceder aquí](#)
-- **Chat de desarrollo:** [Ver en v0.app](https://v0.app/chat/d3aohEdkXQj)
-- **Tablero de Vercel:** [Ver deployment](https://vercel.com/davidrubio581-7803s-projects/v0-figma-prototype-website)
-
-## 🤝 Contribuir
-
-Las contribuciones son bienvenidas. Si encuentras problemas o tienes sugerencias, por favor abre un issue o pull request.
+- **Aplicación en vivo:** [Acceder aquí](https://desarrollo-proyecto-buenos-habitos.vercel.app/)
 
 ## 📝 Licencia
 
@@ -72,4 +63,3 @@ Este proyecto está bajo licencia MIT.
 
 ---
 
-**Última actualización:** Noviembre 2025
