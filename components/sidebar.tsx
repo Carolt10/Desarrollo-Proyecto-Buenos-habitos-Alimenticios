@@ -4,7 +4,7 @@ import { Home, AlertCircle, Utensils, BookOpen } from "lucide-react"
 
 const navigationItems = [
   { id: "home", label: "Inicio", icon: Home },
-  { id: "alerts", label: "Alerta y Concienzación", icon: AlertCircle },
+  { id: "alerts", label: "Alerta y Concientización", icon: AlertCircle },
   { id: "recipes", label: "Recetas Saludables", icon: Utensils },
   { id: "education", label: "Guías de Educación", icon: BookOpen },
   // Secciones ocultas por solicitud del usuario
