@@ -1,0 +1,31 @@
+{
+  "name": "buenos-habitos-e2e",
+  "version": "1.0.0",
+  "description": "Suite de pruebas E2E con Selenium WebDriver para Buenos Habitos Alimenticios",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test": "mocha",
+    "test:headed": "cross-env HEADLESS=false mocha",
+    "test:full": "start-server-and-test \"cd .. && pnpm dev\" http://localhost:3000 test",
+    "test:full:headed": "start-server-and-test \"cd .. && pnpm dev\" http://localhost:3000 test:headed",
+    "test:navigation": "mocha tests/01_navigation.test.js",
+    "test:home": "mocha tests/02_home_page.test.js",
+    "test:recipes": "mocha tests/04_recipes.test.js",
+    "test:alerts": "mocha tests/06_alerts.test.js",
+    "test:validation": "mocha tests/08_form_validation.test.js",
+    "report:merge": "mochawesome-merge reports/json/*.json -o reports/combined.json",
+    "report:generate": "marge reports/combined.json -f report -o reports"
+  },
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "mocha": "^10.7.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
+    "selenium-webdriver": "^4.27.0",
+    "start-server-and-test": "^2.1.5"
+  }
+}
