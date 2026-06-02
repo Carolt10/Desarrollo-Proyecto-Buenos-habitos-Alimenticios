@@ -7,16 +7,17 @@ export default defineConfig({
     globals: true,
     environment: "node",
     clearMocks: true,
-    setupFiles: ["./vitest.setup.ts"],
-    exclude: ["**/node_modules/**", "**/__tests__/integration/**"],
+    // NO setupFiles aquí — no se mockea next/server globalmente
+    // Las rutas necesitan NextResponse real para retornar status y body correctos
+    include: ["__tests__/integration/**/*.test.ts"],
     coverage: {
       provider: "v8",
       reporter: ["text", "lcov", "html"],
+      reportsDirectory: "coverage-integration",
+      // Solo rutas con lógica implementada; community y recipes son stubs sin lógica
       include: [
-        "backend/shared/utils/**/*.ts",
-        "backend/modules/**/service.ts",
-        "frontend/shared/services/**/*.ts",
-        "frontend/modules/**/services/**/*.ts",
+        "app/api/education/**/*.ts",
+        "app/api/testimonials/**/*.ts",
       ],
       thresholds: {
         lines: 85,
