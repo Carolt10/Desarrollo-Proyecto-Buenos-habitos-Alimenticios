@@ -8,7 +8,7 @@ export default defineConfig({
     environment: "node",
     clearMocks: true,
     setupFiles: ["./vitest.setup.ts"],
-    exclude: ["**/node_modules/**", "**/__tests__/integration/**"],
+    exclude: ["**/node_modules/**", "**/__tests__/integration/**", "e2e/**"],
     coverage: {
       provider: "v8",
       reporter: ["text", "lcov", "html"],
