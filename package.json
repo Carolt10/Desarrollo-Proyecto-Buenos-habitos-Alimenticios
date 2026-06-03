@@ -83,6 +83,8 @@
     "tw-animate-css": "1.3.3",
     "typescript": "^5",
     "vite-tsconfig-paths": "^6.1.1",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "latest",
     "vitest": "^4.1.8"
   }
 }
