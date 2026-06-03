@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    # Variables de entorno locales (Supabase keys, etc.)
+    # Crea un archivo .env.local con tus claves y descomenta la línea siguiente:
+    # env_file:
+    #   - .env.local

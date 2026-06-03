@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.git/
+coverage/
+coverage-integration/
+e2e/
+.env.local
+.env*.local
